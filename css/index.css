@@ -1,0 +1,153 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.dhxform_item_template {
+    margin-top: 5px;
+    color: #1e88cf;
+}
+
+.dashlogo {
+    height: 100px;
+    background-image: url("../img/logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 75%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(210, 210, 210, 0.12);
+}
+
+.dashdiv {
+    height: 50px;
+    width: 45%;
+    text-align: center;
+    float: left;
+    padding: 5px;
+    font-size: 1em;
+}
+
+.dashdiv span {
+    color: #929292;
+}
+
+.dashdiv div {
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+.dashboard-catitem {
+    float: left;
+    text-align: right;
+    width: 70%;
+    color: #929292;
+}
+
+.dashboard-catitem, .dashboard-catvalue {
+    height: 40px;
+    line-height: 40px;
+}
+
+.dashboard-catvalue {
+    float: right;
+    font-size: 1.8em;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.dashboard-estimg {
+    width: 24px;
+    float: left;
+    margin-right: 10px;
+}
+
+.dashboard-estnome {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+}
+
+.dashboard-estvalores {
+    float: right;
+    margin: 10px;
+    color: #1e88cf;
+
+}
+
+.dashboard-fluxo {
+    font-size: 1em;
+    margin: 10px;
+    float: left;
+    color: #929292;
+}
+
+.dashboard-fluxo-val {
+    font-size: 3em;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    color: #1e88cf;
+    font-weight: bold;
+}
+
+.dashboard-fluxo-ent-img, .dashboard-fluxo-sai-img {
+    float: right;
+    width: 32px;
+    height: 32px;
+    margin-top: 30px;
+    background-size: 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.dashboard-fluxo-ent-img {
+    background-image: url("../img/gestor/entrada.png");
+}
+
+.dashboard-fluxo-sai-img {
+    background-image: url("../img/gestor/saida.png");
+}
+
+.dashboard-grheader {
+    height: 30px;
+    background-color: rgb(232, 242, 254);
+    background-repeat: no-repeat;
+    background-position: 8px center;
+    background-size: 18px;
+    border-bottom: 1px solid rgb(208, 217, 228);
+    line-height: 30px;
+    padding-left: 40px;
+    color: #1e88cf;
+    font-size: 1em;
+}
+
+.dashboard-grheader-imggr {
+    background-image: url("../img/gestor/grafico.png");
+}
+
+.dashboard-grheader-imges {
+    background-image: url("../img/gestor/estrutura.png");
+}
+
+.dashboard-grbody {
+    height: 90%;
+    width: 100%;
+}
+
+.operacao-foto {
+    width: 128px;
+    height: 128px;
+}
+
+.dhx_chart {
+    font-size: 0.7em;
+    color: #bebebe;
+}
+
+.img-estrutura {
+    width: 24px;
+}
